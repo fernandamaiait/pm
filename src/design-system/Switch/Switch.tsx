@@ -3,7 +3,6 @@ interface ISwitchProps {
   active: boolean;
 }
 export default function Switch({ color, active = false }: ISwitchProps) {
-  console.log(active);
   return (
     <div
       className={`bg-${color}-light h-[22px] w-[114px] rounded-[10.5px] flex justify-${
