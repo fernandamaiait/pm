@@ -1,5 +1,5 @@
-import Button from '../../design-system/Button/Button';
-import TabBar from '../../design-system/TabBar/TabBar';
+import { Button } from '../../design-system';
+import { TabBar } from '../../design-system';
 import Board from '../components/Board';
 
 export default function HomePage() {
@@ -9,9 +9,6 @@ export default function HomePage() {
   ];
   return (
     <div className="bg-gray-200 min-h-screen ">
-      {/* <div className="font-archivo font-normal">Teste1</div>
-      <div className="font-archivo font-bold">Teste1</div>
-      <div className="font-archivo-narrow">Teste1</div> */}
       <div className="flex justify-between items-center h-[109px] mx-[23px]">
         <div>
           <Logo />
