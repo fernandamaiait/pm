@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       colors: {
         'blue-highlight': '#2462D1',
+        'gray-400': '#CBD5E0',
         'gray-800': '#2D3748',
         'gray-200': '#EDF2F7',
         'light-gray': '#BFCFE0',
@@ -42,7 +43,7 @@ module.exports = {
       }
     }
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
   safelist: [
     { pattern: /bg-./ },
     { pattern: /text-./ },
